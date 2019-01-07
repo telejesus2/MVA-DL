@@ -1,7 +1,7 @@
 import numpy as np
 import cPickle as pk
 
-path = "hammer/hammer_0003/hmr/hmr.pkl"
+path = "/content/MVA-DL/hmr.pkl"
 f = open(path, 'r')
 data = pk.load(f)
 
