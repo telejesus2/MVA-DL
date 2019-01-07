@@ -7,7 +7,7 @@ data = pk.load(f)
 
 print(data.keys()) # ['thetas', 'poses', 'cams', 'shapes', 'joint_2d_positions', 'trans']
 
-print(data['poses'].shape) # (210, 72) 210 frames, each row contains a 72d SMPL pose vector
+print(data['poses']) # (210, 72) 210 frames, each row contains a 72d SMPL pose vector
 # 24 spherical joints, each represented by a 3d axis-angle vector, results the 72d pose vector
 
 print(data['shapes'].shape) # (210, 10) each row contains a 10d SMPL shape vector
